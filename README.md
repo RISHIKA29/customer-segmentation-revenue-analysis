@@ -1,9 +1,9 @@
-# Business Intelligence Sales Dashboard
+# Customer Segmentation and Revenue Analysis
 
 ## Overview
-This project demonstrates an end-to-end data analysis workflow using SQL, Python, and Power BI. The objective was to transform raw sales data into actionable business insights through data cleaning, feature engineering, and interactive dashboard development.
+This project focuses on analyzing customer behavior by segmenting customers based on their value and activity. The goal was to transform raw sales data into meaningful customer-level insights that help identify high-value customers, inactive users, and revenue distribution patterns.
 
-The dashboard focuses on understanding customer behavior, revenue distribution, and identifying high-value customers.
+The analysis combines data cleaning, feature engineering, and visualization to support better business decision-making.
 
 ---
 
@@ -22,16 +22,16 @@ The dashboard focuses on understanding customer behavior, revenue distribution, 
 
 ## Key Insights
 - High-value customers contribute the majority of total revenue.
-- Inactive customers still generate significant revenue, indicating strong re-engagement potential.
-- Revenue is concentrated among a small segment of customers.
-- Customer segmentation helps identify retention and growth opportunities.
+- Inactive customers still generate significant revenue, indicating re-engagement opportunities.
+- Revenue is concentrated within a small group of customers.
+- Customer segmentation helps identify retention and growth strategies.
 
 ---
 
 ## Features
 - KPI Metrics:
-  - Total Sales
   - Total Customers
+  - Total Sales
   - Average Order Value
   - High Value Customers
 - Customer Segmentation:
@@ -39,33 +39,67 @@ The dashboard focuses on understanding customer behavior, revenue distribution, 
   - Recency-based segmentation (Active, Inactive, At Risk)
 - Revenue analysis by customer segment
 - Top customers by revenue and profit
-- Interactive filtering and drill-down capabilities
+- Interactive filtering and drill-down analysis
 
 ---
 
 ## Tech Stack
-- SQL – data extraction and transformation
 - Python (Pandas) – data cleaning and feature engineering
+- SQL logic – analytical transformations applied within the workflow
 - Power BI – data modeling and dashboard visualization
 
 ---
 
 ## Project Workflow
 1. Data Cleaning  
-   - Handled missing values and formatted raw data using Python  
+   - Processed raw sales data and handled missing values using Python  
 
 2. Feature Engineering  
    - Created customer-level metrics (total sales, profit, order count)  
-   - Built customer segments based on value and recency  
+   - Built customer segments based on:
+     - Customer value (High, Medium, Low)
+     - Customer activity (Active, Inactive, At Risk)
 
 3. Data Modeling  
-   - Loaded processed data into Power BI  
-   - Established relationships and measures  
+   - Imported processed data into Power BI  
+   - Built measures and relationships  
 
 4. Dashboard Development  
    - Designed KPI cards and visualizations  
-   - Built interactive charts for customer and revenue analysis  
+   - Built segmentation-based revenue analysis  
 
 ---
 
 ## Repository Structure
+
+customer-segmentation-revenue-analysis/
+│
+├── dashboards/
+│ └── customer_segmentation_dashboard.pbix
+│
+├── data/
+│ ├── cleaned_sales_data.csv
+│ └── customer_segmentation_data.csv
+│
+├── notebooks/
+│ └── customer_segmentation_analysis.ipynb
+│
+├── images/
+│ ├── dashboard_overview.png
+│ ├── customer_segmentation.png
+│ └── top_customers.png
+│
+└── README.md
+
+
+---
+
+## How to Use
+1. Download the repository  
+2. Open the `.pbix` file in Power BI Desktop  
+3. Explore customer segments using filters and visuals  
+
+---
+
+## Author
+Rishika Reddy
