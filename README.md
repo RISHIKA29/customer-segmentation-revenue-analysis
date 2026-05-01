@@ -72,6 +72,7 @@ The analysis combines data cleaning, feature engineering, and visualization to s
 
 ## Repository Structure
 
+```
 customer-segmentation-revenue-analysis/
 │
 ├── dashboards/
@@ -90,7 +91,7 @@ customer-segmentation-revenue-analysis/
 │ └── top_customers.png
 │
 └── README.md
-
+```
 
 ---
 
