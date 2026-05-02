@@ -95,6 +95,16 @@ customer-segmentation-revenue-analysis/
 
 ---
 
+## Business Impact
+This project helps stakeholders:
+- Identify high-value customers
+- Understand revenue concentration across customer groups
+- Detect inactive or at-risk customers
+- Support retention and re-engagement strategies
+- Prioritize marketing efforts based on customer value
+
+---
+
 ## How to Use
 1. Download the repository  
 2. Open the `.pbix` file in Power BI Desktop  
