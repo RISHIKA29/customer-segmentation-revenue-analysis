@@ -1,5 +1,7 @@
 # Customer Segmentation and Revenue Analysis
 
+Customer analytics project using SQL, Python, and Power BI to identify high-value segments, revenue concentration, and retention opportunities.
+
 ## Overview
 This project focuses on analyzing customer behavior by segmenting customers based on their value and activity. The goal was to transform raw sales data into meaningful customer-level insights that help identify high-value customers, inactive users, and revenue distribution patterns.
 
